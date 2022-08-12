@@ -1,0 +1,184 @@
+.flexContainer {
+    display: flex;
+    vertical-align: top;
+}
+
+.navigation {
+    display:flex;
+}
+.logo {
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #778899;
+    font: 18px courier;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    align-items: right;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+h1{
+    font: 48px Monaco ;
+    text-align: center;
+}
+
+h2 {
+    font: 36px Courier;
+    text-align: center;
+}
+
+p {
+    font: 18px courier;
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #A3A36C;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+  }
+
+  .grid-containerH {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #B99191;
+    padding: 10px;
+  }
+  .grid-itemH {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+  }
+
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #D6AD47;
+    padding: 10px;
+  }
+  .grid-item3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-itemP {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-itemL {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #A3A36C;
+    padding: 10px;
+  }
+  
+  .grid-container1y {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #D6AD47;
+    padding: 10px;
+  }
+  
+
+  .grid-containerNav {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #A3A36C;
+  }
+  .grid-itemNav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 70px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #778899;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+ }
+
+ .footer p {
+    padding-right: 20px;
+ }
+ 
+ /*footer {
+    height: 50px;
+    margin: 0 auto;
+    background-color: #778899;
+    justify-content: center;
+    text-align: center;
+}*/
+
+.mainPhoto {
+    width: 200px;
+}
+
+.contactMe {
+    padding-right: 200px;
+    padding: 50px;
+}
+
+.linkedin {
+    width:20px;
+}
+
+.travelAppPic {
+    width: 200px;
+}
+
+.governmentRedesign {
+    width: 200px;
+}
+
+.nonprofitRedesign {
+    width: 200px;
+}

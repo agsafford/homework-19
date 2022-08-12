@@ -20,7 +20,7 @@ ul {
   }
   
   li {
-    float: left;
+    float: center;
   }
   
   li a {
@@ -30,10 +30,11 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     align-items: right;
+    background-color: #778899;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #3a434c;
   }
 
 h1{
@@ -182,3 +183,35 @@ p {
 .nonprofitRedesign {
     width: 200px;
 }
+
+  
+.dd {
+    margin:0;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  #dropDown {
+    display: none;
+  }
+  #toggle {
+    background-color: #778899;
+    color: black;
+    cursor: pointer; 
+  }
+/*
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").on("click", function(){
+    $("button").animate({left: '250px'});
+  });
+});
+</script> 
+*/

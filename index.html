@@ -4,14 +4,6 @@
     <head>
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <title> SafforDesigns</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script> 
-$(document).ready(function(){
-  $("button").on("click", function(){
-    $("button").animate({left: '250px'});
-  });
-});
-</script> 
       </head>
 
     
@@ -24,17 +16,21 @@ $(document).ready(function(){
             <button style="background:#778899;position:absolute;"><img src="images/safforDesigns.png" class="logo"></button>
         </div>
         
-        <div class="grid-itemNav">
-            <nav>
-                <ul>
-                    <li><a class="active" href="#home">Portfolio</a></li>
-                    <li><a href="#news">About</a></li>
-                    <li><a href="#contact">Resume</a></li>
-                    <li><a href="#about">Contact</a></li>
-                    <li><a href="#about"><img src="images/linkedin.png" class="linkedin"></a></li>
+        <div>
+                <ul class="grid-itemNav">
+                    <li class="container" id="toggle" ><a class="active" href="#home">Portfolio</a>
+                        <ul id="dropDown">
+                            <li class="dd">Mobile Travel App</li>
+                            <li class="dd">Government Website Redesign</li>
+                            <li class="dd">Nonprofit Website Redesign</li>
+                            <li class="dd">View All Projects</li>
+                        </ul>
+                    </li>
+                    <li><a class="active" href="#about">About</a></li>
+                    <li><a class="active" href="#resume">Resume</a></li>
+                    <li><a class="active" href="#contact">Contact</a></li>
                   </ul>
-             </nav>
-      </div>
+                </div>
  
     
     </section>
@@ -44,7 +40,7 @@ $(document).ready(function(){
             <h1 >Hello, I'm April Safford</h1>
             <h2>UX/UI Designer Driven to Innovate</h2>
                <p>I'm thoughtful and passionate about human-centered design solutions. 
-                   <br>My flexibility and dedication are shown through my various collaborations and projects. </p>
+                My flexibility and dedication are shown through my various collaborations and projects. </p>
                <button class="myResume"> My Resume</button>
         </div>
         <div class="grid-itemP"><img src="images/mainPhoto.png" class="mainPhoto"></div>
@@ -140,6 +136,12 @@ $(document).ready(function(){
         <p>Contact</p>
       </div>
 </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script src="js/index.js"> </script> 
 
 </body>
 </html>

@@ -1,5 +1,13 @@
+console.log("SafforDesigns")
+
 $(document).ready(function(){
-    $("SafforDesigns").click(function(){
-      $("animate").animate({left: '250px'});
+    $("button").on("click", function(){
+      $("button").animate({left: '250px'});
     });
   });
+
+
+  $("#toggle").on("click", function(){
+    $("#dropDown").slideToggle();
+  });
+  
